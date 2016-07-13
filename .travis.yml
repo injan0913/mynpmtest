@@ -6,3 +6,5 @@ before_script:
   - npm install -g gulp
   - npm install
 script: gulp && gulp prepublish
+after_success:
+  - coveralls
