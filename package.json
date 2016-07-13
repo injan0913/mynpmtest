@@ -1,0 +1,38 @@
+{
+  "name": "heyinjan-0913-xoxo",
+  "version": "0.0.0",
+  "description": "testest",
+  "homepage": "https://github.com/injan0913/mynpmtest",
+  "author": {
+    "name": "injan0913",
+    "email": "injan0913@gmail.com",
+    "url": "https://github.com/injan0913"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "test"
+  ],
+  "repository": "git@github.com:injan0913/mynpmtest.git",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "del": "^2.0.2",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0"
+}
